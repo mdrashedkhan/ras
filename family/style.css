@@ -1,0 +1,43 @@
+ body { 
+ 	width:1200px;
+ 	height:960px;
+    margin: 0;
+    font-weight: 400;
+    background-image: url(images/sunset.jpg);
+    background-repeat: no-repeat;
+ 	overflow: hidden;
+}
+
+
+/* slides images */
+.slide-imaes {
+    background-image: url(images/fm1.jpg);
+    background-repeat: repeat-x;
+    animation: slideleft 20000s infinite linear;
+    -webkit-animation: slideleft 69989s infinite linear;
+    background-size: cover;
+    min-height: 271px;
+    margin-top: 139px;
+}
+
+@keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 90000%;
+    }
+}
+
+@-webkit-keyframes slideleft {
+    from {
+        background-position: 0%;
+    }
+
+    to {
+        background-position: 90000%;
+    }
+}
+
+/* //slides images */
